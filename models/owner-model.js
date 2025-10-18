@@ -5,7 +5,6 @@ const ownerSchema = mongoose.Schema({
     type: String,
     trim: true,
     minLength: 3,
-    maxLength: 15,
   },
   email: String,
   password: String,
